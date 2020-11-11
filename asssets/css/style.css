@@ -1,0 +1,94 @@
+/* hero */
+.hero {
+    min-height: 600px;
+    background: url(/asssets/img/hero.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-overlay {
+    min-height: 600px;
+    background: linear-gradient(to right, #b45fffeb,#4b00e0d9);
+}
+
+.hero-title {
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+.hero-img {
+    margin-top: 100px;
+}
+
+/* info */
+
+.info {
+    min-height: 300px;
+    background: url(/asssets/img/info.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.info-overlay {
+    min-height: 300px;
+    background: linear-gradient(to right, #b45fffeb,#4b00e0d9);
+}
+
+/* pricing */
+.card-price {
+    border-radius: 5%;
+}
+
+.price-item-icon {
+    font-size: 8px;
+}
+
+.btn-price {
+    background: #8E2DE2;
+}
+
+.btn-price:hover {
+    background: #a747fc;
+}
+
+/* testimonials */
+.testimonials-comment {
+    border-left: 5px solid #8E2DE2 ;
+    padding-left: 30px;
+}
+
+.testimonials-img {
+    width: 200px;
+}
+
+.slick-next, .slick-prev, .slick-dots, .slick-dotted {
+	filter: invert(10%);
+}
+
+/* footer */
+.footer {
+    background: linear-gradient(to right, #8e2de2,#4a00e0);
+}
+
+.copy {
+	 height: 70px;
+	 width: 100%;
+	 line-height: 70px;
+	 text-align:center;
+	 color: white;
+	 background: #21094a;
+	 font-size: 13px;
+}
+
+/* responsive */
+@media screen and (max-width : 600px){
+    .hero-img {
+        margin-bottom: 80px;
+        width: 80%;
+    }
+
+    .btn-get-info{
+        margin-bottom: 40px;
+    }
+}

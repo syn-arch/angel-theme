@@ -1,0 +1,20 @@
+{
+    "name": "adiatna-sukmana-portofolio",
+    "version": "1.0.0",
+    "description": "web portofolio",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "adiatna sukmana",
+    "license": "ISC",
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.1",
+        "@popperjs/core": "^2.5.4",
+        "bootstrap": "^4.5.3",
+        "jquery": "^3.5.1",
+        "masonry-layout": "^4.2.2",
+        "slick-carousel": "^1.8.1"
+    },
+    "devDependencies": {}
+}
